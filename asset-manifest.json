@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ISKCON/static/css/main.e9e4abbb.css",
+    "main.js": "/ISKCON/static/js/main.c36cdd37.js",
+    "static/media/images.jpg": "/ISKCON/static/media/images.b45a6e63da24e42a898f.jpg",
+    "index.html": "/ISKCON/index.html",
+    "main.e9e4abbb.css.map": "/ISKCON/static/css/main.e9e4abbb.css.map",
+    "main.c36cdd37.js.map": "/ISKCON/static/js/main.c36cdd37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9e4abbb.css",
+    "static/js/main.c36cdd37.js"
+  ]
+}
