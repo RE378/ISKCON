@@ -1,0 +1,38 @@
+.navLink2{
+    padding: 20px 15px 20px 2px;
+    display: block;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navBrand{
+    display: flex;
+}
+.navBrandText{
+margin-left: 10px;
+padding: 2px;
+}
+.headerSymbol2{
+    width: 90px;
+}
+
+@media (min-width: 992px) {
+    .pur{
+        color: #60349e!important;
+        
+    }
+    .pur:hover{
+        border-bottom: 5px solid #60349e;
+    }
+}
+@media(max-width:990px){
+    .pur{
+        color: #000!important;
+        border-bottom: 2px solid #60349e!important;
+    }
+    .navLink2{
+        border-bottom: 1px solid #000;
+    }
+}

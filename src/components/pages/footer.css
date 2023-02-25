@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+.footerbox1,.footerbox3{
+    display: flex;
+}
+.bottomDetialsIcons{
+    padding: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+.bottomDetialsText{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+@media (min-width: 992px) {
+    .footerLayout{
+        display: none;
+    } 
+    #grid2{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        padding: 10px 5px 10px 5px;
+        background: #2b2e33;
+        color: #fff;
+        
+    }
+    #grid2 >div{
+        padding-bottom: 10px;
+        border-bottom: 1px solid #fff;
+    }
+    .item-set2{
+        
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .footerImg{
+        width: 90px;
+    }
+    .footerbox2{
+       text-align: center;
+        margin-top: 8rem;
+    }
+    .footerbox2Details{
+        text-align:center;
+         width:90%;
+        font-size:20px;
+    }
+  .lefthid{
+    display: none;
+  }
+  .righthid{
+    display: block;
+  }
+  .bottomDetials{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    padding: 10px 5px 10px 5px;
+    color: #fff;
+    font-size: 20px;
+  }
+}
+@media(max-width:990px){
+      
+     
+    .footerLayout{
+        margin-top: 5px;
+        display: grid;
+        background-color: #5f349d;
+        color: #fff;
+        padding:  5px 6px 5px 6px;
+        grid-template-columns:auto auto auto auto auto;
+    }
+    .FootorIcons{
+        color: #fff!important;
+    }
+
+    #grid2{
+        display: grid;
+        background: #2b2e33;
+        color: #fff;
+        grid-template-rows:1fr 1fr 1fr;
+        padding-left: 10px;
+    }
+    
+    .footerImg{
+        width: 15%;
+    }
+    .footerbox2Details{
+         width:50%;
+    }
+    .footerbox3{
+        border-bottom: 1px solid #fff;
+        padding-bottom: 5px;
+    }
+    .lefthid{
+        display: block;
+        width: 15%;
+        padding-right: 10px;
+      }
+      .righthid{
+        display: none;
+      }
+}

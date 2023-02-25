@@ -1,0 +1,253 @@
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: Lato;
+}
+.headerSymbol{
+    width: 40px;
+    padding: 2px;
+}
+.dates{
+    color: #43296a;
+    text-align: left;
+}
+.right{
+    text-align: end;
+    color: #439fe0;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.dates i{
+    padding: 2px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+  background-color: black;
+  color: white;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 28px;
+  color: white;
+ 
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 28px;
+  color: white;
+}
+.btnL{
+    margin-top: 2px;
+    font-size: larger;
+    border-radius: 4px;
+}
+section{
+    text-align: center;
+}
+.event{
+    padding-top: 20px;
+    background: #f6f7f8;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.navLinks{
+    padding: 30px 0 10px;
+    margin-left: 30px;
+    position: relative;
+    display: block;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    mix-blend-mode: normal;
+}
+.navLinks:hover{
+    border-bottom: 5px solid #fff;
+}
+@media (min-width: 992px) {
+    .navLinks,.active{
+       color: #fff !important;
+    }
+    .background{
+        background-repeat: no-repeat;
+        background-size: 150px;
+        width: auto; 
+        height: 500px;
+        background-position:center;
+        background-size:cover;
+        opacity: 0.8;
+        /* background-image: linear-gradient(180deg,rgba(0,0,0,0.65) 1%, rgba(215, 210, 210, 0.8)),url("../../public/images.jpg"); */
+        background-image: url( "./images.jpg");
+        display: block;
+        top: 0;
+        left: 0;
+        
+        }
+    .box{
+        width: auto; 
+        height: 200px;
+        color: #fff!important;
+    } 
+    .top{
+        text-align: center;
+        font-size: large;
+        font-weight: 800;
+        margin-top: 6rem;
+    }
+    .topheading{
+        text-align: center;
+        color: #fff;
+        
+    }
+    .contentbox{
+        padding: 50px 30px;
+        box-shadow: 0 9px 26px -111px #a3a1a3;
+        margin: 0 auto;
+        width: 80%;
+        color: #000;
+        background-color: #fff;
+        height: 250px;
+        border-radius: 8px;
+    }
+    .topInnerText{
+        width: 25%;
+        color: rgba(47,52,63,.56);
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 auto;
+    }
+    .groupButton{
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        padding: 50px 30px;
+    }
+    .btnPur,.btnPur:hover{
+        color: #fff;
+        background-color: #43296a;
+        border-radius: 40px;
+        box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    } 
+    .middleText{
+        padding: 50px 30px;
+        margin: 0 auto;
+        width: 70%;
+        font-size: 20px;
+        color: #a3a1a3;
+    }
+    .templeCard{
+        display: grid;
+        grid-template-columns:auto auto auto;
+        padding: 50px 40px;
+    }
+    .templeCardImg{
+        border-radius: 8px;
+        height: 219px;
+    }
+    .marTop{
+        margin-top: 5rem;
+        text-align: center;
+    }
+}
+@media(max-width:990px){
+    .navLinks{
+        border-bottom: 1px solid #000;
+    }
+    .background{
+        background-repeat: no-repeat;
+        background-size: 150px;
+        width: auto; 
+        height: 300px;
+        background-position:center;
+        background-size:cover;
+        opacity: 0.8;
+        /* background-image: linear-gradient(180deg,rgba(0,0,0,0.65) 1%, rgba(215, 210, 210, 0.8)),url("../../public/images.jpg"); */
+        background-image: url("./images.jpg");
+        display: block;
+        top: 0;
+        left: 0;
+        
+        }
+    .box{
+        width: auto; 
+        height: 100px;
+        color: #fff!important;
+    } 
+    .top{
+        text-align: center;
+        font-size: large;
+        font-weight: 800;
+        margin-top: 5rem;
+    }
+    .contentbox{
+        padding:40px 25px;
+        box-shadow: 0 9px 26px -111px #a3a1a3;
+        margin: 0 auto;
+        width: 80%;
+        color: #000;
+        background-color: #fff;
+        height: 250px;
+        border-radius: 8px;
+    }
+    .topInnerText{
+       max-width: 50%;
+        color: rgba(47,52,63,.56);
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    .groupButton{
+        display: flex;
+        width: auto;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+    .btnPur,.btnPur:hover{
+        color: #fff;
+        background-color: #43296a;
+        border-radius: 40px;
+        box-shadow: 0 2px 2px rgb(0 0 0 / 25%);
+    }
+    .middleText{
+        padding: 40px 25px;
+        margin: 0 auto;
+        width: 70%;
+        font-size: 10px;
+        color: #a3a1a3;
+    }
+    .templeCard{
+        display: grid;
+        margin: 0 auto;
+        grid-template-rows:auto auto auto;
+        grid-gap:20px;
+        padding: 50px 40px;
+    }
+    .templeCardImg{
+        border-radius: 8px;
+        height: 219px;
+    }
+    .marTop{
+        margin-top: 10rem;
+        text-align: center;
+    }
+}
